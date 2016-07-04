@@ -1,0 +1,113 @@
+body {
+	font-size:14px;
+	color:#FFFFFF;
+}
+a {
+	color:#FFFFFF;	
+}
+/*Just overwritting bootstrap css*/
+.is-navbar {
+	background-image:linear-gradient(120deg,#4A7DE3,#0ED4F4);
+	border-radius:0px;
+}
+.navbar {
+	border:0px;
+	margin-bottom:0px;	
+}
+.nav.navbar-nav.navbar-right li a {
+    color:#FFFFFF;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover {
+	color:#FFFFFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#FFFFFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color:#17C2F7;
+}
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default:visited{
+	background-color:transparent;
+	color:#FFFFFF;
+}
+.btn-default:active:focus, .btn-default:active:hover{
+	background-color:transparent;
+	color:#FFFFFF;
+}
+/*my own css*/
+.is-banner {
+	background-image:linear-gradient(120deg,#06735D,#09324F);
+}
+.is-message {
+	padding:25% 0 0 0;
+}
+h1 {
+	font-size:3rem;
+}
+.is-btn {
+	padding:5% 0 15% 0;	
+}
+/*circular nav starts*/
+.col-sm-4 {
+	padding:5% 0 0 0;
+	height:320px;
+}
+.is-circ-nav {
+	height:200px;
+	width:200px;
+	margin:0 auto;
+	/*box-shadow: -10px 0px 10px 1px #aaaaaa;*/
+	box-shadow:-5px 0px 20px 1px #aaaaaa;
+	border-radius:50%;
+}
+.is-circ-nav:hover,.is-circ-nav-md:hover{
+	height:205px;
+	width:205px;	
+}
+.is-circ-nav-md {
+	height:200px;
+	width:200px;
+	margin:0 auto;
+	/*box-shadow: -10px 0px 10px 1px #aaaaaa;*/
+	box-shadow:5px 0px 20px 1px #aaaaaa;
+	border-radius:50%;
+}
+/*footer starts*/
+.is-footer {
+	background-image:linear-gradient(120deg,#222222,#575656);
+}
+.is-footer-nav, .is-footer-joinus{
+	height:250px;
+	padding:2% 0 0 0;	
+}
+.is-footer-nav ul li a span {
+	padding:0 2% 0 0;
+	font-size:2rem;
+}
+.is-footer-nav ul li {
+	padding:1% 0 0 0;
+	font-size:2rem;
+}
+
+.is-footer-joinus {
+	padding:10% 0 0 0;
+}
+
+
+
+
+
+
+/*this code below does all the scrolling effect*/
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+	height:60px;
+	background-image:linear-gradient(120deg,#5C76F0,#09767B);
+}
