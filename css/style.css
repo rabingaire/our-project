@@ -5,9 +5,30 @@ body {
 a {
 	color:#FFFFFF;	
 }
+
+.dropdown-menu {
+	background-image:linear-gradient(120deg,#06735D,#09324F);
+	border-radius: 0px;	
+	text-align: center;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	color: #FFFFFF;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: #FFFFFF;
+}
+.dropdown-menu li a:hover {
+	background-color: #6E7475;
+}
 /*Just overwritting bootstrap css*/
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #FFFFFF;
+	background-color: transparent;
+}
 .is-navbar {
-	background-image:linear-gradient(120deg,#4A7DE3,#0ED4F4);
+	/*background-image:linear-gradient(120deg,#4A7DE3,#0ED4F4);*/
+	background-image:linear-gradient(120deg,#06735D,#09324F);
 	border-radius:0px;
 }
 .navbar {
@@ -60,25 +81,19 @@ h1 {
 	box-shadow:-5px 0px 20px 1px #aaaaaa;
 	border-radius:50%;
 }
-.is-circ-nav:hover,.is-circ-nav-md:hover{
+
+.is-circ-nav:hover{
 	height:205px;
 	width:205px;	
 }
-.is-circ-nav-md {
-	height:200px;
-	width:200px;
-	margin:0 auto;
-	/*box-shadow: -10px 0px 10px 1px #aaaaaa;*/
-	box-shadow:5px 0px 20px 1px #aaaaaa;
-	border-radius:50%;
-}
+
 /*footer starts*/
 .is-footer {
 	background-image:linear-gradient(120deg,#222222,#575656);
 }
 .is-footer-nav, .is-footer-joinus{
-	height:250px;
-	padding:2% 0 0 0;	
+	height:270px;
+	padding:8% 0 0 0;	
 }
 .is-footer-nav ul li a span {
 	padding:0 2% 0 0;
@@ -90,11 +105,32 @@ h1 {
 }
 
 .is-footer-joinus {
-	padding:10% 0 0 0;
+	padding:3% 0 0 0;
 }
 
+.is-message-box {
+	padding:5% 0;
+}
 
+.is_contact_header,.is_about_header
+{
+	/*background-image:linear-gradient(120deg,#06735D,#09324F);*/
+	padding:5% 0;
+	color:#424647;
+}
+.is_contact_header h5 ,.is_about_header h5{
+	color:#949A9C;
+}
+textarea {
+    resize: none;
+}
 
+.message-sending {
+	background-image:linear-gradient(120deg,#06735D,#09324F);
+}
+i {
+	padding:2% 2%;
+}
 
 
 
@@ -108,6 +144,5 @@ h1 {
 }
 
 .navbar.scrolled {
-	height:60px;
 	background-image:linear-gradient(120deg,#5C76F0,#09767B);
 }

@@ -3,14 +3,15 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="--our website detail--">
+	<meta name="description" content="A complete solution of information and technology.">
 	<meta name="author" content="Rabin Gaire">
-	<meta property="og:title" content="--our website name--" />
-	<meta property="og:url" content="--our domain name with http://" />
+	<meta property="og:title" content="NITCNP" />
+	<meta property="og:url" content="http://nitcnp.com" />
 	<meta property="og:image" content="--picture or link of our logo--" />
 	<title>It Project</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://use.fontawesome.com/86c49aa805.js"></script>
 </head>
 <body>
 <!--navbar starts-->
@@ -22,17 +23,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button> 
-            <a href="index.html" class="navbar-brand">Our Logo</a>
+            <a href="index.html" class="navbar-brand">NCIT</a>
         </div>
         <!--part that will collapse after reaching certain breakpoint-->
         <div class="collapse navbar-collapse" id="my-menu">
         	<ul class="nav navbar-nav text-center navbar-right is-element">
             	<li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Pages</a></li>
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="index.html">Blog</a></li>
-                <li><a href="index.html">Subcodes</a></li>
-                <li><a href="index.html">Contact Us</a></li>
+                <li><a href="#go_to_aboutus">About Us</a></li>
+                <li><a href="#go_to_contactus">Contact Us</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">NITC Jobs
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Vendor</a></li>
+                        <li><a href="#">Vacancy</a></li> 
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
@@ -44,11 +50,11 @@
 	<div class="row">
     	<div class="col-xs-12 is-banner">
         	<div class="is-message">
-            	<h1 class="text-center">Want to Pursue your career in IT??</h1>
-                <h1 class="text-center">Hop on with us and take a tour</h1>
+                <h1 class="text-center">Need a complete IT solution for your Company</h1>
+                <h1 class="text-center">Hop on with us and see what can we do for you</h1>
                 <div class="col-xs-12 text-center is-btn">
-                	<a href="#" class="btn btn-default btn-lg">TAKE A TOUR</a>
-            	</div>
+                    <a href="#" class="btn btn-default btn-lg">CONTACT US</a>
+                </div>
             </div>
         </div>
     </div>
@@ -56,7 +62,15 @@
 <!--banner ends-->
 
 <!--circular nav starts-->
-
+<a id="go_to_aboutus"></a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 text-center is_about_header">
+            <h3>ABOUT US</h3>
+            <h5>We Solve all of the IT Problems</h5>
+        </div>
+    </div>
+</div>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-4">
@@ -65,7 +79,7 @@
             </div>
         </div> 
         <div class="col-sm-4">
-        	<div class="is-circ-nav-md">
+        	<div class="is-circ-nav">
             
             </div>
         </div>
@@ -79,22 +93,69 @@
 
 <!--circular nav ends-->
 
+<!--contact us form -->
+<a id="go_to_contactus"></a>
+<div class="container-fluid">
+    <div class="row">
+        <hr>
+        <div class="col-xs-12 text-center is_contact_header">
+            <h3>CONTACT US</h3>
+            <h5>We Are always here to hear You</h5>
+        </div>
+        <div class="col-xs-12">
+            <div class="row is-message-box">
+                <div class="container">
+                    <div class="col-xs-2">
+                    </div>
+                    <div class="col-xs-8">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phonenumber" placeholder="Phone Number (With Country Code)">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="textarea" rows="3" placeholder="Your Message..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg message-sending">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-xs-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--contact us form ends-->
+
+
 <!--footer starts-->
 <div class="container-fluid is-footer">
 	<div class="col-md-4 is-footer-nav text-center">
     	<ul class="list-unstyled list">
-        	<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-            <li><a href="index.html"><span class="glyphicon glyphicon-duplicate"></span>Pages</a></li>
-            <li><a href="index.html"><span class="glyphicon glyphicon-list-alt"></span>Portfolio</a></li>
-            <li><a href="index.html"><span class="glyphicon glyphicon-text-background"></span>Blog</a></li>
-            <li><a href="index.html"><span class="glyphicon glyphicon-console"></span>Subcodes</a></li>
-            <li><a href="index.html"><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+            <li><a href="#go_to_aboutus"><span class="glyphicon glyphicon-text-background"></span>About Us</a></li>
+            <li><a href="#go_to_contactus"><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
         </ul>
     </div>
     <div class="col-md-8 is-footer-joinus text-center">
     	<span class="glyphicon glyphicon-thumbs-up"></span>
-    	<h4>Created by Rabin Gaire</h4>
-        <h5>For Decoder Company Copyright &copy; 2016</h5>
+        <h4>NITC</h4>
+        <h5>"A complete solution of information and technology."</h5>
+        <h5>Nepaltar, Kathmandu</h5>
+        <h5>Contact Number: +977-9844156370</h5>
+        <h5>Email:nitcnp@gmail.com</h5>
+        <h5>For NCIT Company Copyright &copy; 2016</h5>
+    </div>
+    <div class="col-md-12 text-center">
+        <a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
     </div>
 </div>
 <!--footer ends-->
